@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.w3.org/1999/xhtml" lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Vanessa's Online Resume.">
+    <meta name="keywords" content="Full Stack Developer">
+    <meta name="author" content="Vanessa Mendoza">
+
+    <title>Vanessa Mendoza - Full Stack Developer Resume/Portfolio Website</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+
+<header class="site-navigation">
+    <div class="nav-container">
+
+        <i class="nav-toggle fa fa-2x fa-bars" aria-hidden="true" id="toggle-open"></i>
+        <nav class="nav-menu">
+            <div class="nav-mobile-header">
+                <span class="primary">V</span>
+                <strong class="secondary">M</strong>
+                <i class="nav-toggle fa fa-2x fa-close" aria-hidden="true" id="toggle-close"></i>
+            </div>
+            <a href="experience">Experience</a>
+            <a href="contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <header class="site-hero">
+        <div class="small-container">
+            <div class="about">
+                <h1>
+                    <span>Full Stack</span> /
+                    <span class="secondary">Developer</span>
+                </h1>
+                <p class="underline">Hi, I'm Vanessa! I design and develop full stack applications.
+                </p>
+                <img th:src="@{/images/vanessaimage.jpg}" alt="Picture of Vanessa" class="myImage">
+                <p>
+                    <a class="button button-secondary" href="contact">Get in Touch</a>
+                </p>
+            </div>
+        </div>
+    </header>
+
+
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <h3>
+            <span class="primary">Vanessa</span>
+            <strong class="secondary">Mendoza</strong>
+        </h3>
+        <p>
+            Full Stack Web Developer who enjoys gardening, star gazing, and cooking keto meals.
+        </p>
+        <div class="social-icons">
+
+            <a href="https://github.com/vmendoza1001" target="_blank">
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/vanessa-d-mendoza/" target="_blank">
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+<footer class="footer-bottom">
+    <div class="container">
+        <p>
+            Made by Vanessa Mendoza.
+        </p>
+    </div>
+</footer>
+
+<script src="js/scripts.js"></script>
+<script src="js/prism.js"></script>
+</body>
+
+</html>
+
+
+
+
+

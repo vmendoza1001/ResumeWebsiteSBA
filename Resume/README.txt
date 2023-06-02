@@ -1,0 +1,1 @@
+A resume portfolio website displaying my work experience and a way to get in contact with me. Also has links to my git hub page and linkedin profile. 
